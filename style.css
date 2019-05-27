@@ -9,12 +9,31 @@ li {
 	list-style: none;
 }
 body {
-	font-family: 'Open Sans', sans-serif;
+	/* font-family: 'Open Sans', sans-serif; */
+	font-family: 'Poppins', sans-serif;
 }
 header {
 	width: 100%;
 	background: #000;
 	display: flex;
+}
+.bold {
+	font-weight: bold;
+}
+.white {
+	color: #fff;
+}
+.orange {
+	color: #fcac45;
+}
+.space {
+	padding-left: 4px;
+}
+.grey {
+	color: #999999
+}
+.upperCase {
+	text-transform: uppercase;
 }
 .header_logo {
   text-transform: uppercase;
@@ -45,6 +64,79 @@ nav {
 .topnav .icon {
 	display: none;
 }
+.wraper {
+	padding: 180px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	background-color: #000;
+	align-items: center;
+	flex-direction: column;
+}
+.wraper_headline {
+	display: flex;
+	font-size: 44px;
+}
+.wraper_text {
+	display: flex;
+	font-size: 20px;
+}
+.menu_about {
+	display: flex;
+	justify-content: space-between;
+	padding: 105px 180px;
+}
+.menu_image { 
+ background-image: url(assets/image/Imac.png);
+ width: 506px;
+ height: 406px;;
+ display: flex;
+ flex-shrink: 0;
+ margin-right: 50px;
+}
+.menu_alltext {
+	display: flex;
+	flex-direction: column;
+	width: 420px;
+	padding-right: 180px;
+}
+.menu_headline {
+	display: flex;
+	border-bottom: 3px solid #fcac45;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	font-size: 34px;
+}
+.menu_text {
+	font-size: 18px;
+}
+.menu_icon_text {
+	font-size: 18px;
+	padding-top: 50px;
+}
+.icon1 {
+	position: relative;
+	margin-left: 18px;
+}
+.icon1:after {
+	content: "";
+	position: absolute;
+	top: 7px;
+	left: -20px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url(assets/image/1.png);
+	width: 15px;
+	height: 15px;
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 1105px) {
 	nav{
 		margin-left: 10%;
