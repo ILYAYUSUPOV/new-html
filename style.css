@@ -12,10 +12,13 @@ body {
 	/* font-family: 'Open Sans', sans-serif; */
 	font-family: 'Poppins', sans-serif;
 }
-header {
-	width: 100%;
-	background: #000;
+
+.orange_line {
 	display: flex;
+	background: #fcac45;
+	height: 3px;
+	width: 100px;
+	margin: 30px auto 50px;
 }
 .bold {
 	font-weight: bold;
@@ -34,6 +37,11 @@ header {
 }
 .upperCase {
 	text-transform: uppercase;
+}
+header {
+	width: 100%;
+	background: #000;
+	display: flex;
 }
 .header_logo {
   text-transform: uppercase;
@@ -130,11 +138,58 @@ nav {
 	width: 15px;
 	height: 15px;
 }
-
-
-
-
-
+.menu_card {
+	background-color: #000;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 100px 0 170px;
+}
+.our_team {
+	font-size: 44px;
+}
+.card {
+	display: flex;
+	width: 70%;
+	margin: 50px auto;
+	margin-top: 75px;
+}
+.card_container_info:not(:first-child) {
+	margin-left: 40px;
+}
+.name {
+	font-size: 20px;
+}
+.position {
+	font-size: 16px;
+}
+.quote {
+	font-size: 14px;
+	margin-top: 42px;
+}
+.services_card {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 100px 0 100px;
+}
+.our_services {
+	margin: 0 240px 0 240px;
+}
+.services_headline {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-size: 44px;
+	margin: 90px 0 0px 0;
+}
+.card_headline {
+	font-size: 25px;
+	margin: 20px;
+}
+.services_card_info {
+	margin: 0 40px 0 25px;
+}
 
 
 @media screen and (max-width: 1105px) {
