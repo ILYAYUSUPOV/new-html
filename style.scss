@@ -1,0 +1,13 @@
+$color: #000;
+body {
+    background: $color;
+}
+.form_input {
+    .label_input {
+        .input{
+            &:not(:first-child) {
+                background-color: red;
+            }
+        }
+    }
+}
